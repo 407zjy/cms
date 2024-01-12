@@ -1,0 +1,90 @@
+
+import Vue from 'vue'
+import {
+    Button,
+    Form,
+    FormItem,
+    Input, Message,
+    Container,
+    Aside,
+    Header,
+    Main,
+    Menu,
+    MenuItemGroup,
+    Submenu,
+    MenuItem,
+    Breadcrumb,
+    BreadcrumbItem,
+    Card,
+    Table,
+    TableColumn,
+    Switch,
+    Tooltip,
+    Pagination,
+    Dialog,
+    MessageBox,
+    Option,
+    Cascader,
+    Col,
+    Row,
+    Tag,
+    Alert,
+    Tabs,
+    TabPane,
+    Steps,
+    Step,
+    Upload,
+    Radio,
+    Select,
+    Dropdown,
+    DropdownMenu,
+    DropdownItem,
+    Collapse,
+    CollapseItem,
+    DatePicker,
+    Image
+} from 'element-ui'
+
+Vue.use(Image)
+Vue.use(DatePicker)
+Vue.use(Collapse)
+Vue.use(CollapseItem)
+Vue.use(Select)
+Vue.use(Radio)
+Vue.use(Steps)
+Vue.use(Step)
+Vue.use(TabPane)
+Vue.use(Tabs)
+Vue.use(Alert)
+Vue.use(Tag)
+Vue.use(Row)
+Vue.use(Col)
+Vue.use(Option)
+Vue.use(Cascader)
+Vue.use(Dialog)
+Vue.use(Tooltip)
+Vue.use(Button)
+Vue.use(Form)
+Vue.use(FormItem)
+Vue.use(Input)
+Vue.use(Container)
+Vue.use(Aside)
+Vue.use(Header)
+Vue.use(Main)
+Vue.use(Menu)
+Vue.use(MenuItemGroup)
+Vue.use(Submenu)
+Vue.use(MenuItem)
+Vue.use(Breadcrumb)
+Vue.use(BreadcrumbItem)
+Vue.use(Card)
+Vue.use(Table)
+Vue.use(TableColumn)
+Vue.use(Switch)
+Vue.use(Pagination)
+Vue.use(Upload)
+Vue.use(Dropdown)
+Vue.use(DropdownMenu)
+Vue.use(DropdownItem)
+Vue.prototype.$message = Message
+Vue.prototype.$confirm = MessageBox.confirm

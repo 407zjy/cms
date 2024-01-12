@@ -1,0 +1,33 @@
+html, 
+body, 
+#app { 
+height: 100%; 
+margin: 0; 
+padding: 0;
+box-sizing: border-box;
+}
+.el-card {
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.el-scrollbar__wrap{
+    overflow-x: hidden;
+}
+.el-select-dropdown__list {
+    padding-bottom: 20px;
+}
+.fl{
+    float: left;
+}
